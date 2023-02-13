@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <h2>Formulario de Registro</h2>
+
+    <form action="" method="get">
+        <fieldset>
+            <div>
+                <label for="nameInput">Nombre:</label>
+                <input type="text" id="nameInput" name="nameInput" placeholder="Elon">
+                <label for="surnameInput">Apellidos:</label>
+                <input type="text" id="surnameInput" name="surnameInput" placeholder="Musk">
+            </div>
+            <br>
+            <div>
+                <label for="ageInput">Edad:</label>
+                <input type="number" id="ageInput" name="ageInput" value="40">
+            </div>
+            <br>
+            <div>
+                <label for="emailInput">Email:</label>
+                <input type="email" id="emailInput" name="emailInput" placeholder="email@example.com">
+            </div>
+            <br>
+            <div>
+                <label for="passwordInput">Password:</label>
+                <input type="password" id="passwordlInput" name="passwordInput" placeholder="********">
+            </div>
+            <fieldset>
+                <legend>Género</legend>
+                <div>
+                    <input type="radio" name="genderInput" id="genderManInput">
+                    <label for="genderManInput">Hombre</label>
+                </div>
+                <div>
+                    <input type="radio" name="genderInput" id="genderWomanInput">
+                    <label for="genderWomanInput">Mujer</label>
+                </div>
+                <div>
+                    <input type="radio" name="genderInput" id="genderOtherInput" required>
+                    <label for="genderOtherInput">Otros</label>
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <label for="countryInput">País:</label>
+                <input type="country" id="countryInput" name="countryInput" placeholder="Introduce tu país">
+            </div>
+            <br>
+            <div class="inputBlock">
+                <label for="program">Lenguaje de programación:</label>
+                <select name="programInput" id="programInput">
+                    <option value="" hidden></option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Python">Python</option>
+                    <option value="C++">C++</option>
+                </select>
+
+            </div>
+            <br>
+            <fieldset==disabled==/disabled>
+                <legend>Selecciona tu academia de programación favorita:</legend>
+                <div>
+                    <input type="radio" name="academyInput" id="academySpaceInput">
+                    <label for="academySpaceInput">Code Space Academy</label>
+                </div>
+                <div>
+                    <input type="radio" name="academyInput" id="academyacademia2Input">
+                    <label for="academyacademia2Input">Academia 2</label>
+                </div>
+                <div>
+                    <input type="radio" name="academyInput" id="academyacademia3Inpu" required>
+                    <label for="academyacademia3Input">Academia 3</label>
+                </div>
+        </fieldset>
+        <br>
+        <div>
+            <input type="checkbox" name="inputBLock" id="inputBLock">
+            <label for="inputBLock">Acepto recibir cientos de miles de correo irrelevantes.</label>
+        </div>
+        <div>
+            <input type="checkbox" name="inputBLock" id="inputBLock">
+            <label for="inputBLock">Acepto los términos y condiciones.</label>
+        </div>
+        <br>
+        <input type="submit" value="Guardar">
+        <input type="reset" value="Vaciar formulario">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
